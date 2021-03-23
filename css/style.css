@@ -1,0 +1,192 @@
+/* TYPOGRAPHY AND FORM */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100&family=Source+Sans+Pro:wght@700&display=swap');
+
+#avatar {
+  max-width: 50%;
+}
+
+/* FONT FAMILY SYTLES */
+#links a, #typo, #log_in, #colors, #grid, #button_styles, p, .form-control, #button-primary,
+#btn_styles .default,
+#btn_styles .success,
+#btn_styles .error,
+#btn_styles .warning,
+#btn_styles .information {
+  font-family: 'Raleway', sans-serif;
+}
+
+#logo, #heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+}
+
+#links a, #typo, #log_in, #colors, #button_styles, #grid {
+   font-weight: 500;
+}
+
+#logo, #links a {
+  color: #fff;
+}
+
+#links a {
+   padding-bottom: 0;
+ }
+
+#heading {
+  color: #58e1c1;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+#link {
+  font-weight: 700;
+  color: #51ddfc;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #58e1c1;
+}
+
+#typo, #log_in, #button_styles, #colors, #grid {
+  font-size: 1rem;
+}
+
+
+p, .form-control {
+  font-weight: 400;
+}
+
+.callout {
+    padding: 1.25rem;
+    margin: 1.25rem 4rem 1.25rem 2rem;
+    border-left: .50rem solid #58e1c1;
+    border-radius: .25rem;
+}
+
+.callout p {
+  margin: 0 auto;
+}
+
+.form-group {
+  border-bottom: .30rem solid #58e1c1;
+  border-radius: .25rem;
+}
+
+#exampleInputEmail1, #exampleInputPassword1 {
+  border: none;
+}
+
+/* BUTTON STYLES */
+
+#button-primary,
+#btn_styles .default,
+#btn_styles .success,
+#btn_styles .error,
+#btn_styles .warning,
+#btn_styles .information {
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+#btn_styles .default,
+#btn_styles .success,
+#btn_styles .error,
+#btn_styles .warning,
+#btn_styles .information {
+  border: 2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#btn_styles .default:hover,
+#btn_styles .success:hover,
+#btn_styles .error:hover,
+#btn_styles .warning:hover,
+#btn_styles .information:hover {
+  color: white;
+}
+
+#btn_styles .default {
+  border-color: #51ddfc;
+  color: #51ddfc;
+}
+
+#btn_styles .success {
+  border-color: #63cc82;
+  color: #63cc82;;
+}
+#btn_styles .error {
+  border-color: #e4757a;
+  color:  #e4757a;
+}
+#btn_styles .warning {
+  border-color: #fd7856;
+  color: #fd7856;
+}
+#btn_styles .information {
+  border-color: #927bc1;
+  color: #927bc1;
+}
+
+#btn_styles .default:hover {
+  background: #51ddfc;
+}
+
+#btn_styles .success:hover {
+  background: #63cc82;
+}
+#btn_styles .error:hover {
+  background: #e4757a;
+}
+#btn_styles .warning:hover {
+  background: #fd7856;
+}
+#btn_styles .information:hover {
+  background: #927bc1;
+}
+
+#button-primary {
+  background: #51ddfc;
+  border: none;
+}
+
+
+.panel-blue-green {
+  background-color: #80e8d1;
+}
+
+.panel-maximum-blue {
+  background-color: #4da2bb;
+}
+
+.panel-sky-blue {
+  background-color: #7ee6fd;
+}
+
+.panel-mauve {
+  background-color: #deb2ee;
+}
+
+.panel-pastel-pink {
+  background-color: #ec9fa3;
+}
+
+.panel-tangerine {
+  background-color: #fd9f85;
+}
+
+
+.panel {
+  border-radius: 0.3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #fff;
+}
