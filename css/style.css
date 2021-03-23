@@ -11,9 +11,16 @@
 #btn_styles .success,
 #btn_styles .error,
 #btn_styles .warning,
-#btn_styles .information {
+#btn_styles .information, {
   font-family: 'Raleway', sans-serif;
 }
+
+h6 {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
 
 #logo, #heading {
   font-family: 'Source Sans Pro', sans-serif;
@@ -24,8 +31,9 @@
    font-weight: 500;
 }
 
-#logo, #links a {
+#logo, #links a, #footer a {
   color: #fff;
+  text-decoration: none;
 }
 
 #links a {
@@ -157,6 +165,12 @@ p, .form-control {
 }
 
 
+
+
+#color-1 {
+
+}
+
 .panel-blue-green {
   background-color: #80e8d1;
 }
@@ -189,4 +203,19 @@ p, .form-control {
   margin-bottom: 1rem;
   text-align: center;
   color: #fff;
+}
+
+
+/* footer */
+
+#footer {
+  background-color: #80e8d1;
+}
+
+#footer p {
+  color: #fff;
+}
+
+#footer hr {
+  border-top: 3px solid #fff;
 }
